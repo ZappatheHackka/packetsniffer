@@ -1,0 +1,41 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+your_program
+packet_sniffer
+main
+
+# Go test files
+*.test
+*.prof
+*.out
+
+# Go modules
+go.sum
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packet capture files (if you save captures)
+*.pcap
+*.pcapng
+*.cap
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
